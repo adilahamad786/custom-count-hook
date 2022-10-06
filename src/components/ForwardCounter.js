@@ -4,7 +4,7 @@ import useCounter from '../hooks/use-counter';
 import Card from './Card';
 
 const ForwardCounter = () => {
-  const counter = useCounter();
+  const counter = useCounter(); // call for forward counting logic bydefault argument is "true".
   return <Card>{counter}</Card>;
 };
 
